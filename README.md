@@ -22,7 +22,7 @@ sudo reboot
 Установите зависимости из файла install_packages_target.sh
 ```
 cd ~
-wget https://raw.githubusercontent.com/stimandrew/CrossCompileQtForOrangePi5Ultra/main/install_packages_target.sh
+wget https://github.com/stimandrew/CrossCompileQtForOrangePi5Ultra/blob/main/install_packages_target.sh
 chmod +x install_packages_target.sh
 sudo ./install_packages_target.sh
 ```
@@ -91,7 +91,7 @@ sudo apt upgrade
 Установите зависимости из файла install_packages_target.sh
 ```
 cd ~
-wget https://raw.githubusercontent.com/stimandrew/CrossCompileQtForOrangePi5Ultra/main/install_packages_host.sh
+wget https://github.com/stimandrew/CrossCompileQtForOrangePi5Ultra/blob/main/install_packages_host.sh
 chmod +x install_packages_host.sh
 sudo ./install_packages_host.sh
 ```
