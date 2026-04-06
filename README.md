@@ -88,7 +88,7 @@ echo "orangepi ALL=(ALL) NOPASSWD: /usr/bin/rsync" | sudo tee -a /etc/sudoers
 sudo apt update
 sudo apt upgrade
 ```
-Установите зависимости из файла install_packages_target.sh
+Установите зависимости из файла install_packages_host.sh
 ```
 cd ~
 wget https://raw.githubusercontent.com/stimandrew/CrossCompileQtForOrangePi5Ultra/main/install_packages_host.sh
